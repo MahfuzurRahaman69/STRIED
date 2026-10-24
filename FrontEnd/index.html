@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- ===== START: HOME PAGE ===== -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stride — Shoes for Everyone</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <!-- ===== START: HERO ===== -->
+  <section class="hero">
+    <div class="container">
+      <div>
+        <div class="eyebrow">New Season Drop</div>
+        <h1>Built for<br><em>every</em> stride.</h1>
+        <p>Running shoes, everyday sneakers, boots and kids' kicks — plus the socks and laces to finish the fit.</p>
+        <a href="products.html" class="btn btn-primary">Shop All Shoes</a>
+      </div>
+      <div class="hero-visual">
+        <img src="https://placehold.co/500x500/1c1c1e/ffffff?text=Momentum+Runner" alt="Featured shoe: Momentum Runner" />
+      </div>
+    </div>
+  </section>
+  <!-- ===== END: HERO ===== -->
+
+  <!-- ===== START: CATEGORY TILES ===== -->
+  <div class="container">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <a href="products.html?category=men" class="category-tile"><h3>Men</h3></a>
+      <a href="products.html?category=women" class="category-tile"><h3>Women</h3></a>
+      <a href="products.html?category=kids" class="category-tile"><h3>Kids</h3></a>
+      <a href="products.html?category=accessories" class="category-tile"><h3>Accessories</h3></a>
+    </div>
+  </div>
+  <!-- ===== END: CATEGORY TILES ===== -->
+
+  <!-- ===== START: FEATURED PRODUCTS ===== -->
+  <div class="container section">
+    <div class="flex-between">
+      <h2>Trending Now</h2>
+      <a href="products.html" class="btn btn-sm">View All →</a>
+    </div>
+    <div id="featured-grid" class="product-grid"></div>
+  </div>
+  <!-- ===== END: FEATURED PRODUCTS ===== -->
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/product-card.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
+<!-- ===== END: HOME PAGE ===== -->

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- ===== START: PRODUCT DETAIL PAGE ===== -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title-tag">Product — Stride</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <div class="container section" id="pd-root">
+    <div class="pd-layout">
+      <!-- ===== START: GALLERY ===== -->
+      <div class="pd-gallery">
+        <img id="pd-image" src="" alt="" />
+      </div>
+      <!-- ===== END: GALLERY ===== -->
+
+      <!-- ===== START: PRODUCT INFO / PURCHASE PANEL ===== -->
+      <div class="pd-title">
+        <div class="brand" id="pd-brand"></div>
+        <h1 id="pd-name" style="text-transform:none; letter-spacing:0; font-family:var(--font-display); text-transform:uppercase;"></h1>
+        <div class="stars" id="pd-rating"></div>
+        <div class="pd-price" id="pd-price"></div>
+        <p id="pd-desc" style="color:var(--ink-soft)"></p>
+
+        <div id="pd-msg"></div>
+
+        <h4 style="margin-top:20px; font-size:.78rem; text-transform:uppercase; letter-spacing:.05em;">Select Size</h4>
+        <div id="pd-sizes" class="size-grid"></div>
+
+        <div class="qty-row">
+          <button id="qty-minus" type="button">−</button>
+          <span id="qty-value">1</span>
+          <button id="qty-plus" type="button">+</button>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button id="add-to-cart" class="btn btn-primary btn-block">Add to Cart</button>
+          <button id="pd-wishlist" class="wishlist-toggle" style="position:static; width:48px; height:48px;">♡</button>
+        </div>
+      </div>
+      <!-- ===== END: PRODUCT INFO / PURCHASE PANEL ===== -->
+    </div>
+
+    <!-- ===== START: TABS (DESCRIPTION / SIZE CHART / REVIEWS) ===== -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="desc">Description</button>
+      <button class="tab-btn" data-tab="sizechart">Size Chart</button>
+      <button class="tab-btn" data-tab="reviews">Reviews (<span id="review-count-tab">0</span>)</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-desc">
+      <p id="tab-desc-text"></p>
+    </div>
+
+    <div class="tab-panel" id="tab-sizechart">
+      <p style="margin-bottom:14px; color:var(--ink-soft)">Measurements are in centimeters. If you're between sizes, we recommend sizing up.</p>
+      <div id="size-chart-holder"></div>
+    </div>
+
+    <div class="tab-panel" id="tab-reviews">
+      <div class="review-summary">
+        <div class="avg" id="review-avg">0.0</div>
+        <div>
+          <div class="stars" id="review-avg-stars"></div>
+          <div id="review-total-text" style="color:var(--ink-soft); font-size:.85rem;"></div>
+        </div>
+      </div>
+
+      <div id="review-list"></div>
+
+      <h3 class="mt-40">Write a Review</h3>
+      <form id="review-form" class="form-card" style="margin:16px 0 0;">
+        <div id="review-msg"></div>
+        <div class="field">
+          <label for="review-rating">Rating</label>
+          <select id="review-rating">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Good</option>
+            <option value="3">3 - Average</option>
+            <option value="2">2 - Poor</option>
+            <option value="1">1 - Terrible</option>
+          </select>
+        </div>
+        <div class="field"><label for="review-title">Title</label><input id="review-title" type="text" placeholder="Sum up your experience" /></div>
+        <div class="field"><label for="review-comment">Comment</label><textarea id="review-comment" rows="3" placeholder="What did you like or dislike?"></textarea></div>
+        <button class="btn btn-dark btn-block" type="submit">Submit Review</button>
+      </form>
+    </div>
+    <!-- ===== END: TABS ===== -->
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/product-card.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/product.js"></script>
+</body>
+</html>
+<!-- ===== END: PRODUCT DETAIL PAGE ===== -->

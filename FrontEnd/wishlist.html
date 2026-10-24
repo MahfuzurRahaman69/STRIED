@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- ===== START: WISHLIST PAGE ===== -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wishlist — Stride</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <div class="container section">
+    <h2>Your Wishlist</h2>
+    <div id="wishlist-grid" class="product-grid"></div>
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/product-card.js"></script>
+  <script src="js/nav.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const items = await api.get('/wishlist');
+      await renderProductGrid('wishlist-grid', items);
+    });
+  </script>
+</body>
+</html>
+<!-- ===== END: WISHLIST PAGE ===== -->

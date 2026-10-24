@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- ===== START: CART PAGE ===== -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart — Stride</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <div class="container section">
+    <h2>Your Cart</h2>
+    <div id="cart-root">
+      <div class="cart-layout">
+        <div id="cart-lines"></div>
+        <div class="summary-box">
+          <h3>Order Summary</h3>
+          <div class="summary-row"><span>Subtotal</span><span id="sum-subtotal">৳0</span></div>
+          <div class="summary-row"><span>Shipping</span><span id="sum-shipping">৳0</span></div>
+          <div class="summary-row"><span>Estimated Tax</span><span id="sum-tax">৳0</span></div>
+          <div class="summary-row total"><span>Total</span><span id="sum-total">৳0</span></div>
+          <a href="checkout.html" id="checkout-btn" class="btn btn-primary btn-block mt-16">Proceed to Checkout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
+<!-- ===== END: CART PAGE ===== -->

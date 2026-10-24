@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- ===== START: PRODUCTS / SEARCH / FILTER PAGE ===== -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop All Shoes — Stride</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <div class="container section">
+    <h2 id="page-title">All Shoes</h2>
+
+    <div class="shop-layout">
+      <!-- ===== START: FILTER SIDEBAR ===== -->
+      <aside class="filters">
+        <h4>Category</h4>
+        <div class="filter-option"><input type="radio" name="category" value="" id="cat-all" checked><label for="cat-all">All</label></div>
+        <div class="filter-option"><input type="radio" name="category" value="men" id="cat-men"><label for="cat-men">Men</label></div>
+        <div class="filter-option"><input type="radio" name="category" value="women" id="cat-women"><label for="cat-women">Women</label></div>
+        <div class="filter-option"><input type="radio" name="category" value="kids" id="cat-kids"><label for="cat-kids">Kids</label></div>
+        <div class="filter-option"><input type="radio" name="category" value="accessories" id="cat-acc"><label for="cat-acc">Accessories</label></div>
+
+        <h4>Brand</h4>
+        <div id="brand-filters"></div>
+
+        <h4>Size</h4>
+        <div id="size-filters" class="size-grid"></div>
+
+        <h4>Price</h4>
+        <div class="field"><label for="min-price">Min (৳)</label><input type="number" id="min-price" min="0" /></div>
+        <div class="field"><label for="max-price">Max (৳)</label><input type="number" id="max-price" min="0" /></div>
+
+        <button id="apply-filters" class="btn btn-dark btn-block">Apply Filters</button>
+        <button id="clear-filters" class="btn btn-block mt-8">Clear All</button>
+      </aside>
+      <!-- ===== END: FILTER SIDEBAR ===== -->
+
+      <!-- ===== START: RESULTS ===== -->
+      <div>
+        <div class="results-bar">
+          <span id="results-count"></span>
+          <select id="sort-select">
+            <option value="">Sort: Featured</option>
+            <option value="price_asc">Price: Low to High</option>
+            <option value="price_desc">Price: High to Low</option>
+            <option value="rating">Top Rated</option>
+          </select>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+      <!-- ===== END: RESULTS ===== -->
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/product-card.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
+<!-- ===== END: PRODUCTS / SEARCH / FILTER PAGE ===== -->

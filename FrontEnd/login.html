@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- ===== START: LOGIN PAGE ===== -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In — Stride</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <div class="container">
+    <form id="login-form" class="form-card">
+      <h2>Log In</h2>
+      <div id="login-msg"></div>
+      <div class="field">
+        <label for="login-email">Email</label>
+        <input id="login-email" type="email" required />
+      </div>
+      <div class="field">
+        <label for="login-password">Password</label>
+        <input id="login-password" type="password"
+          required />
+        </div>
+      <button type="submit" class="btn btn-primary btn-block">Log In</button>
+      <p class="text-center mt-16" style="font-size:.85rem;">New here? <a href="register.html"
+          style="text-decoration:underline;">Create an account</a></p>
+    </form>
+  </div>
+
+  <div id="site-footer"></div>
+  <div id="chat-widget"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+
+</html>
+<!-- ===== END: LOGIN PAGE ===== -->

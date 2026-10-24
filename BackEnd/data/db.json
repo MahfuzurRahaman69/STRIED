@@ -1,0 +1,353 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": "p001",
+      "name": "Momentum Runner",
+      "category": "men",
+      "brand": "Stride",
+      "price": 10800,
+      "salePrice": 8400,
+      "colors": [
+        "Black",
+        "Grey"
+      ],
+      "sizes": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "stock": 42,
+      "rating": 4.6,
+      "reviewCount": 3,
+      "image": "https://placehold.co/500x500/1c1c1e/ffffff?text=Momentum+Runner",
+      "images": [
+        "https://placehold.co/500x500/1c1c1e/ffffff?text=Momentum+Runner"
+      ],
+      "description": "A lightweight daily trainer built for road miles, with responsive foam cushioning and a breathable knit upper.",
+      "sizeChartType": "mens"
+    },
+    {
+      "id": "p002",
+      "name": "Urban Glide Sneaker",
+      "category": "men",
+      "brand": "Stride",
+      "price": 8900,
+      "salePrice": null,
+      "colors": [
+        "White",
+        "Navy"
+      ],
+      "sizes": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "stock": 30,
+      "rating": 4.2,
+      "reviewCount": 2,
+      "image": "https://placehold.co/500x500/2b2b2e/ffffff?text=Urban+Glide",
+      "images": [
+        "https://placehold.co/500x500/2b2b2e/ffffff?text=Urban+Glide"
+      ],
+      "description": "Everyday street sneaker with a durable rubber outsole and cushioned collar for all-day comfort.",
+      "sizeChartType": "mens"
+    },
+    {
+      "id": "p003",
+      "name": "Trail Blazer Boot",
+      "category": "men",
+      "brand": "Rockridge",
+      "price": 15500,
+      "salePrice": 11900,
+      "colors": [
+        "Brown"
+      ],
+      "sizes": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "stock": 18,
+      "rating": 4.8,
+      "reviewCount": 5,
+      "image": "https://placehold.co/500x500/4a3728/ffffff?text=Trail+Blazer",
+      "images": [
+        "https://placehold.co/500x500/4a3728/ffffff?text=Trail+Blazer"
+      ],
+      "description": "Waterproof hiking boot with reinforced toe cap and aggressive lug outsole for rugged trails.",
+      "sizeChartType": "mens"
+    },
+    {
+      "id": "p101",
+      "name": "Aria Cloud Flat",
+      "category": "women",
+      "brand": "Stride",
+      "price": 7800,
+      "salePrice": null,
+      "colors": [
+        "Blush",
+        "Black"
+      ],
+      "sizes": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stock": 36,
+      "rating": 4.5,
+      "reviewCount": 4,
+      "image": "https://placehold.co/500x500/e8b4b8/1c1c1e?text=Aria+Cloud+Flat",
+      "images": [
+        "https://placehold.co/500x500/e8b4b8/1c1c1e?text=Aria+Cloud+Flat"
+      ],
+      "description": "Soft ballet flat with memory foam footbed, perfect for all-day wear.",
+      "sizeChartType": "womens"
+    },
+    {
+      "id": "p102",
+      "name": "Skyline Running Shoe",
+      "category": "women",
+      "brand": "Stride",
+      "price": 11000,
+      "salePrice": 9500,
+      "colors": [
+        "Coral",
+        "Grey"
+      ],
+      "sizes": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "stock": 27,
+      "rating": 4.7,
+      "reviewCount": 6,
+      "image": "https://placehold.co/500x500/ff6b5b/ffffff?text=Skyline+Runner",
+      "images": [
+        "https://placehold.co/500x500/ff6b5b/ffffff?text=Skyline+Runner"
+      ],
+      "description": "Energy-return midsole and a snug sock-like fit designed for tempo runs.",
+      "sizeChartType": "womens"
+    },
+    {
+      "id": "p103",
+      "name": "Heritage Heel",
+      "category": "women",
+      "brand": "Marlowe",
+      "price": 13200,
+      "salePrice": null,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "sizes": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stock": 15,
+      "rating": 4.3,
+      "reviewCount": 2,
+      "image": "https://placehold.co/500x500/8a1f2b/ffffff?text=Heritage+Heel",
+      "images": [
+        "https://placehold.co/500x500/8a1f2b/ffffff?text=Heritage+Heel"
+      ],
+      "description": "Classic block-heel pump with a cushioned insole for evening comfort.",
+      "sizeChartType": "womens"
+    },
+    {
+      "id": "p201",
+      "name": "Little Sprinter",
+      "category": "kids",
+      "brand": "Stride Kids",
+      "price": 4800,
+      "salePrice": 3600,
+      "colors": [
+        "Blue",
+        "Green"
+      ],
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "stock": 50,
+      "rating": 4.9,
+      "reviewCount": 3,
+      "image": "https://placehold.co/500x500/2e86ab/ffffff?text=Little+Sprinter",
+      "images": [
+        "https://placehold.co/500x500/2e86ab/ffffff?text=Little+Sprinter"
+      ],
+      "description": "Durable, easy-fasten sneaker built for the playground with extra toe protection.",
+      "sizeChartType": "kids"
+    },
+    {
+      "id": "p202",
+      "name": "Rainbow Light-Up",
+      "category": "kids",
+      "brand": "Stride Kids",
+      "price": 5400,
+      "salePrice": null,
+      "colors": [
+        "Multi"
+      ],
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stock": 22,
+      "rating": 4.4,
+      "reviewCount": 1,
+      "image": "https://placehold.co/500x500/f4a300/1c1c1e?text=Light-Up+Kicks",
+      "images": [
+        "https://placehold.co/500x500/f4a300/1c1c1e?text=Light-Up+Kicks"
+      ],
+      "description": "Fun light-up sole sneaker with hook-and-loop straps for quick on-off.",
+      "sizeChartType": "kids"
+    },
+    {
+      "id": "p301",
+      "name": "Everyday Crew Socks (3-Pack)",
+      "category": "accessories",
+      "brand": "Stride",
+      "price": 1800,
+      "salePrice": null,
+      "colors": [
+        "Assorted"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviewCount": 2,
+      "image": "https://placehold.co/500x500/6b6b6b/ffffff?text=Crew+Socks",
+      "images": [
+        "https://placehold.co/500x500/6b6b6b/ffffff?text=Crew+Socks"
+      ],
+      "description": "Cushioned crew socks with arch support, sold as a pack of three.",
+      "sizeChartType": "accessory"
+    },
+    {
+      "id": "p302",
+      "name": "Waterproof Shoe Spray",
+      "category": "accessories",
+      "brand": "GuardCare",
+      "price": 1500,
+      "salePrice": null,
+      "colors": [
+        "N/A"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "stock": 60,
+      "rating": 4.1,
+      "reviewCount": 1,
+      "image": "https://placehold.co/500x500/3c6e71/ffffff?text=Shoe+Spray",
+      "images": [
+        "https://placehold.co/500x500/3c6e71/ffffff?text=Shoe+Spray"
+      ],
+      "description": "Protective spray that repels water and stains from leather, suede and fabric.",
+      "sizeChartType": "accessory"
+    },
+    {
+      "id": "p303",
+      "name": "Structured Laces (Pair)",
+      "category": "accessories",
+      "brand": "Stride",
+      "price": 800,
+      "salePrice": null,
+      "colors": [
+        "Black",
+        "White",
+        "Orange"
+      ],
+      "sizes": [
+        "45in",
+        "54in",
+        "63in"
+      ],
+      "stock": 100,
+      "rating": 4.6,
+      "reviewCount": 2,
+      "image": "https://placehold.co/500x500/1c1c1e/ff5a1f?text=Laces",
+      "images": [
+        "https://placehold.co/500x500/1c1c1e/ff5a1f?text=Laces"
+      ],
+      "description": "Flat woven replacement laces, sold in pairs.",
+      "sizeChartType": "accessory"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r001",
+      "productId": "p001",
+      "userId": "seed",
+      "userName": "Jordan M.",
+      "rating": 5,
+      "title": "Best daily trainer I've owned",
+      "comment": "Cushioning is soft but still snappy for tempo runs. True to size.",
+      "date": "2026-05-14T00:00:00.000Z"
+    },
+    {
+      "id": "r002",
+      "productId": "p001",
+      "userId": "seed",
+      "userName": "Alicia P.",
+      "rating": 4,
+      "title": "Great, runs slightly narrow",
+      "comment": "Comfortable shoe, sized up half a size for a roomier fit.",
+      "date": "2026-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "r003",
+      "productId": "p001",
+      "userId": "seed",
+      "userName": "Sam K.",
+      "rating": 5,
+      "title": "Worth it",
+      "comment": "Lightweight and breathable, perfect for summer runs.",
+      "date": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "id": "r004",
+      "productId": "p102",
+      "userId": "seed",
+      "userName": "Nina T.",
+      "rating": 5,
+      "title": "Love the fit",
+      "comment": "Sock-like fit is fantastic, no break-in period needed.",
+      "date": "2026-04-10T00:00:00.000Z"
+    }
+  ],
+  "carts": {},
+  "wishlists": {},
+  "orders": [],
+  "returns": [],
+  "chats": {}
+}
